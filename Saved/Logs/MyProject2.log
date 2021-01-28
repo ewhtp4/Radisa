@@ -1,8 +1,8 @@
-﻿Log file open, 01/28/21 19:11:44
+﻿Log file open, 01/28/21 20:13:57
 LogInit: Display: Running engine for game: MyProject2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.175288
+LogStats: Stats thread started at 0.177804
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,917 +194,482 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:085][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.01.28-18.11.45:085][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:085][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:088][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.28-18.11.45:088][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.28-18.11.45:089][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.28-18.11.45:089][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.28-18.11.45:089][  0]LogHAL: Display: Platform has ~ 32 GB [34305376256 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.01.28-18.11.45:089][  0]LogInit: Going up to parent DeviceProfile []
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.28-18.11.45:089][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.28-18.11.45:090][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.01.28-18.11.45:091][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.01.28-18.11.45:091][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.01.28-18.11.45:091][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.01.28-18.11.45:091][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
-[2021.01.28-18.11.45:091][  0]LogInit: Computer: DESKTOP-Q92LIBO
-[2021.01.28-18.11.45:091][  0]LogInit: User: slavk
-[2021.01.28-18.11.45:091][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.01.28-18.11.45:091][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.28-18.11.45:091][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2021.01.28-18.11.45:091][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.28-18.11.45:091][  0]LogMemory: Process Physical Memory: 116.52 MB used, 116.52 MB peak
-[2021.01.28-18.11.45:091][  0]LogMemory: Process Virtual Memory: 105.42 MB used, 105.42 MB peak
-[2021.01.28-18.11.45:091][  0]LogMemory: Physical Memory: 10262.87 MB used,  22453.29 MB free, 32716.16 MB total
-[2021.01.28-18.11.45:091][  0]LogMemory: Virtual Memory: 5141.12 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2021.01.28-18.11.45:095][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.01.28-18.11.45:121][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.01.28-18.11.45:122][  0]LogInit: Using OS detected language (en-US).
-[2021.01.28-18.11.45:122][  0]LogInit: Using OS detected locale (en-US).
-[2021.01.28-18.11.45:125][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.01.28-18.11.45:263][  0]LogInit: Setting process to per monitor DPI aware
-[2021.01.28-18.11.45:292][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.01.28-18.11.45:292][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.01.28-18.11.45:429][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.28-18.11.45:429][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.01.28-18.11.45:429][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.01.28-18.11.45:429][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.28-18.11.45:468][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700' (Feature Level 11_0)
-[2021.01.28-18.11.45:468][  0]LogD3D11RHI:       8152/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2021.01.28-18.11.45:470][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.28-18.11.45:470][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.28-18.11.45:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.28-18.11.45:477][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.28-18.11.45:477][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
-[2021.01.28-18.11.45:477][  0]LogWindows: EnumDisplayDevices:
-[2021.01.28-18.11.45:477][  0]LogWindows:    0. 'AMD Radeon RX 5700' (P:1 D:1)
-[2021.01.28-18.11.45:478][  0]LogWindows:    1. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:478][  0]LogWindows:    2. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:478][  0]LogWindows:    3. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:478][  0]LogWindows:    4. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:479][  0]LogWindows:    5. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:479][  0]LogWindows:    6. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:479][  0]LogWindows:    7. 'AMD Radeon RX 5700' (P:0 D:0)
-[2021.01.28-18.11.45:480][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2021.01.28-18.11.45:480][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700
-[2021.01.28-18.11.45:480][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.9.1 (internal:27.20.12029.1000, unified:27.20.12029.1000)
-[2021.01.28-18.11.45:480][  0]LogD3D11RHI:      Driver Date: 9-9-2020
-[2021.01.28-18.11.45:480][  0]LogRHI: Texture pool is 5168 MB (70% of 7384 MB)
-[2021.01.28-18.11.45:536][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.01.28-18.11.45:536][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.28-18.11.45:536][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.01.28-18.11.45:536][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
-[2021.01.28-18.11.45:556][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2021.01.28-18.11.45:779][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.01.28-18.11.45:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.01.28-18.11.45:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.01.28-18.11.45:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.01.28-18.11.45:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.01.28-18.11.45:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.01.28-18.11.45:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.01.28-18.11.45:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.01.28-18.11.45:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.01.28-18.11.45:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.01.28-18.11.45:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.01.28-18.11.45:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.01.28-18.11.45:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.01.28-18.11.45:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.01.28-18.11.45:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.01.28-18.11.45:930][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.01.28-18.11.45:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.01.28-18.11.45:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.01.28-18.11.45:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.01.28-18.11.45:955][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.01.28-18.11.45:961][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.01.28-18.11.46:015][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Intermediate/Shaders/WorkingDirectory/10824/).
-[2021.01.28-18.11.46:015][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/slavk/AppData/Local/Temp/UnrealShaderWorkingDir/2D57F0F04AA40415187BA3A8937E755E/'.
-[2021.01.28-18.11.46:015][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.01.28-18.11.46:015][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.01.28-18.11.46:015][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.01.28-18.11.46:680][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.01.28-18.11.46:720][  0]LogDerivedDataCache: Loaded boot cache 0.04s 80MB C:/Users/slavk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.28-18.11.46:721][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/slavk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.01.28-18.11.46:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.28-18.11.46:721][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.28-18.11.46:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.28-18.11.46:721][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.28-18.11.46:731][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.28-18.11.46:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.28-18.11.46:731][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.01.28-18.11.46:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/slavk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.28-18.11.46:732][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.01.28-18.11.46:732][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.01.28-18.11.46:775][  0]LogSlate: Using FreeType 2.10.0
-[2021.01.28-18.11.46:775][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.28-18.11.46:798][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2021.01.28-18.11.47:001][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.28-18.11.47:090][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.28-18.11.47:090][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.01.28-18.11.47:090][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.01.28-18.11.47:090][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.01.28-18.11.47:090][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.01.28-18.11.47:102][  0]LogNetVersion: MyProject2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2431794755)
-[2021.01.28-18.11.47:460][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022F58BED300), frame # 0
-[2021.01.28-18.11.47:460][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022F58B27C40), frame # 0
-[2021.01.28-18.11.47:461][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F58B47200), frame # 0
-[2021.01.28-18.11.47:490][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.024833 seconds
-[2021.01.28-18.11.47:495][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.01.28-18.11.47:495][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.01.28-18.11.47:495][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.28-18.11.47:781][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.28-18.11.47:785][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.28-18.11.47:871][  0]SourceControl: Source control is disabled
-[2021.01.28-18.11.47:871][  0]SourceControl: Source control is disabled
-[2021.01.28-18.11.47:873][  0]SourceControl: Source control is disabled
-[2021.01.28-18.11.47:876][  0]SourceControl: Source control is disabled
-[2021.01.28-18.11.47:882][  0]SourceControl: Source control is disabled
-[2021.01.28-18.11.48:085][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.28-18.11.48:101][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.28-18.11.48:101][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.28-18.11.48:142][  0]LogOcInput: OculusInput pre-init called
-[2021.01.28-18.11.48:153][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.01.28-18.11.48:153][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.01.28-18.11.48:209][  0]LogEngine: Initializing Engine...
-[2021.01.28-18.11.48:210][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.28-18.11.48:210][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.01.28-18.11.48:211][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.01.28-18.11.48:299][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.01.28-18.11.48:307][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.01.28-18.11.48:307][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F5D4D4800), frame # 0
-[2021.01.28-18.11.48:307][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022F5D4FD800), frame # 0
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.28-18.11.48:322][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.28-18.11.48:322][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.28-18.11.48:322][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.28-18.11.48:336][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.28-18.11.48:336][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.01.28-18.11.48:367][  0]LogAudioMixer: Display: Using Audio Device 1 - LG HDR WFHD (AMD High Definition Audio Device)
-[2021.01.28-18.11.48:371][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.28-18.11.48:374][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.28-18.11.48:374][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.28-18.11.48:374][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.28-18.11.48:375][  0]LogInit: FAudioDevice initialized.
-[2021.01.28-18.11.48:375][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.01.28-18.11.48:429][  0]LogDerivedDataCache: Saved boot cache 0.06s 80MB C:/Users/slavk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.28-18.11.48:430][  0]LogInit: Texture streaming: Enabled
-[2021.01.28-18.11.48:444][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.01.28-18.11.48:444][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.01.28-18.11.48:447][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.01.28-18.11.48:483][  0]LogInit: Transaction tracking system initialized
-[2021.01.28-18.11.48:500][  0]BlueprintLog: New page: Editor Load
-[2021.01.28-18.11.48:557][  0]LocalizationService: Localization service is disabled
-[2021.01.28-18.11.48:685][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.01.28-18.11.48:685][  0]LogCook: Display: Mobile HDR setting 1
-[2021.01.28-18.11.48:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/' took 0.01s
-[2021.01.28-18.11.48:939][  0]SourceControl: Source control is disabled
-[2021.01.28-18.11.48:939][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.363
-[2021.01.28-18.11.48:939][  0]Cmd: MAP LOAD FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.28-18.11.48:940][  0]LightingResults: New page: Lighting Build
-[2021.01.28-18.11.48:940][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.11.48:940][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.11.48:941][  0]MapCheck: New page: Map Check
-[2021.01.28-18.11.48:941][  0]LightingResults: New page: Lighting Build
-[2021.01.28-18.11.48:952][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F5D4D4800), frame # 0
-[2021.01.28-18.11.48:952][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022F5D4FD800), frame # 0
-[2021.01.28-18.11.48:952][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2021.01.28-18.11.49:119][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.01.28-18.11.49:119][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F6CD3FE00), frame # 0
-[2021.01.28-18.11.49:119][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022F6CD6AAC0), frame # 0
-[2021.01.28-18.11.49:165][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.28-18.11.49:184][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
-[2021.01.28-18.11.49:184][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.28-18.11.49:184][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.189ms to complete.
-[2021.01.28-18.11.49:184][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.245
-[2021.01.28-18.11.49:186][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.610
-[2021.01.28-18.11.49:314][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.28-18.11.49:320][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.28-18.11.49:326][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.28-18.11.49:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.28-18.11.49:339][  0]LogCollectionManager: Loaded 0 collections in 0.001847 seconds
-[2021.01.28-18.11.49:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Collections/' took 0.00s
-[2021.01.28-18.11.49:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Developers/slavk/Collections/' took 0.00s
-[2021.01.28-18.11.49:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Collections/' took 0.00s
-[2021.01.28-18.11.49:353][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3427 classes and 821 folders.
-[2021.01.28-18.11.49:355][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.01.28-18.11.49:405][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.01.28-18.11.49:406][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2021.01.28-18.11.49:429][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.01.28-18.11.49:429][  0]LogLoad: (Engine Initialization) Total time: 5.85 seconds
-[2021.01.28-18.11.49:429][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.01.28-18.11.49:464][  0]LogAssetRegistry: Asset discovery search completed in 2.6668 seconds
-[2021.01.28-18.11.49:467][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.01.28-18.11.49:468][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.01.28-18.11.49:474][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.01.28-18.11.49:475][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.01.28-18.11.49:478][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.01.28-18.11.49:532][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.28-18.11.49:544][  1]LogRenderer: Reallocating scene render targets to support 688x644 Format 10 NumSamples 1 (Frame:1).
-[2021.01.28-18.12.32:446][253]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.28-18.12.32:522][253]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World.World
-[2021.01.28-18.12.32:551][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2021.01.28-18.12.32:552][253]Cmd: MAP LOAD FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/ThirdPersonBP/Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.28-18.12.32:552][253]LightingResults: New page: Lighting Build
-[2021.01.28-18.12.32:553][253]LoadErrors: New page: Loading map: World.umap
-[2021.01.28-18.12.32:554][253]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.12.32:554][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.12.32:554][253]MapCheck: New page: Map Check
-[2021.01.28-18.12.32:554][253]LightingResults: New page: Lighting Build
-[2021.01.28-18.12.32:564][253]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F6CD3FE00), frame # 2253
-[2021.01.28-18.12.32:564][253]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022F6CD6AAC0), frame # 2253
-[2021.01.28-18.12.32:565][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2021.01.28-18.12.32:572][253]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.28-18.12.32:572][253]LogAIModule: Creating AISystem for world World
-[2021.01.28-18.12.32:572][253]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F6D012C00), frame # 2253
-[2021.01.28-18.12.32:572][253]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022F520BE980), frame # 2253
-[2021.01.28-18.12.32:584][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2021.01.28-18.12.32:598][253]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.28-18.12.32:598][253]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.133ms to complete.
-[2021.01.28-18.12.32:598][253]LogFileHelpers: Loading map 'World' took 0.046
-[2021.01.28-18.12.36:391][683]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2021.01.28-18.14.40:515][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_plane_Plane)
-[2021.01.28-18.14.44:499][812]Cmd: DELETE
-[2021.01.28-18.14.44:499][812]Cmd: ACTOR DELETE
-[2021.01.28-18.14.44:501][812]LogEditorActor: Deleted Actor: StaticMeshActor
-[2021.01.28-18.14.44:511][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2021.01.28-18.14.44:512][812]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2021.01.28-18.14.53:631][880]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2021.01.28-18.14.53:660][880]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.01.28-18.14.57:977][394]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2021.01.28-18.16.28:132][171]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2021.01.28-18.16.33:257][777]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 16X16)
-[2021.01.28-18.16.33:259][777]LogMaterial: Display: Missing cached shader map for material WorldMaterial, compiling. 
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
-[2021.01.28-18.16.33:306][779]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
-[2021.01.28-18.16.37:094][222]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 16X16)
-[2021.01.28-18.16.54:295][280]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 16X16)
-[2021.01.28-18.16.54:296][280]LogMaterial: Display: Missing cached shader map for material WorldMaterial, compiling. 
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
-[2021.01.28-18.16.54:309][280]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
-[2021.01.28-18.16.59:207][845]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
-[2021.01.28-18.22.32:699][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2021.01.28-18.22.32:708][143]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
-[2021.01.28-18.22.32:708][143]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 16X16)
-[2021.01.28-18.22.32:709][143]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 16X16)
-[2021.01.28-18.22.32:709][143]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 16X16)
-[2021.01.28-18.22.32:709][143]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 16X16)
-[2021.01.28-18.22.32:710][143]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 16X16)
-[2021.01.28-18.22.32:710][143]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
-[2021.01.28-18.22.32:710][143]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 16X16)
-[2021.01.28-18.22.32:747][143]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/World_Auto122B440CE43741392678FCBB3029A0EAB.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/ThirdPersonBP/Maps/World_Auto1.umap'
-[2021.01.28-18.22.32:749][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World' took 0.060
-[2021.01.28-18.22.32:749][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.060
-[2021.01.28-18.34.54:973][160]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\slavk\Documents\Unreal Projects\Models\pyramid.fbx)
-[2021.01.28-18.34.54:984][160]LogFbx: Loading FBX Scene from C:\Users\slavk\Documents\Unreal Projects\Models\pyramid.fbx
-[2021.01.28-18.34.54:992][160]LogFbx: FBX Scene Loaded Succesfully
-[2021.01.28-18.34.56:375][160]LogSlate: Window 'FBX Import Options' being destroyed
-[2021.01.28-18.34.56:553][160]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.34.56:563][160]LogFbx: Display: Triangulating static mesh Cube
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.34.56:569][160]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
-[2021.01.28-18.34.56:569][160]LogStaticMesh: Building static mesh pyramid_Cube...
-[2021.01.28-18.34.56:571][160]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Pyramid/pyramid_Cube.pyramid_Cube
-[2021.01.28-18.34.56:576][160]LogFbx: Display: Triangulating static mesh Cube.001
-[2021.01.28-18.34.56:578][160]LogStaticMesh: Building static mesh pyramid_Cube_001...
-[2021.01.28-18.34.56:582][160]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Pyramid/pyramid_Cube_001.pyramid_Cube_001
-[2021.01.28-18.34.56:586][160]LogFbx: Display: Triangulating static mesh Cube.002
-[2021.01.28-18.34.56:588][160]LogStaticMesh: Building static mesh pyramid_Cube_002...
-[2021.01.28-18.34.56:593][160]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Pyramid/pyramid_Cube_002.pyramid_Cube_002
-[2021.01.28-18.34.56:597][160]LogFbx: Display: Triangulating static mesh Cube.003
-[2021.01.28-18.34.56:600][160]LogStaticMesh: Building static mesh pyramid_Cube_003...
-[2021.01.28-18.34.56:606][160]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Pyramid/pyramid_Cube_003.pyramid_Cube_003
-[2021.01.28-18.34.56:610][160]LogFbx: Display: Triangulating static mesh Cube.004
-[2021.01.28-18.34.56:613][160]LogStaticMesh: Building static mesh pyramid_Cube_004...
-[2021.01.28-18.34.56:617][160]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Pyramid/pyramid_Cube_004.pyramid_Cube_004
-[2021.01.28-18.34.56:618][160]LogStaticMesh: Warning: pyramid_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2021.01.28-18.34.56:618][160]LogStaticMesh: Warning: pyramid_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2021.01.28-18.34.56:628][160]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2021.01.28-18.34.56:628][160]FBXImport: Warning: pyramid_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2021.01.28-18.34.56:628][160]FBXImport: Warning: pyramid_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2021.01.28-18.34.56:709][160]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.01.28-18.35.06:464][135]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.06:464][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.06:731][135]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.06:731][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.06:979][135]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.06:979][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.07:244][135]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.07:244][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.07:495][135]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.07:495][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.07:699][136]LogRenderer: Reallocating scene render targets to support 988x780 Format 10 NumSamples 1 (Frame:1).
-[2021.01.28-18.35.40:382][187]LogSlate: Window 'pyramid_Cube_004' being destroyed
-[2021.01.28-18.35.40:390][187]LogSlate: Window 'pyramid_Cube_004' being destroyed
-[2021.01.28-18.35.40:391][187]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.40:391][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.40:448][187]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.40:448][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.40:510][187]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.40:510][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.40:573][187]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.40:573][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.40:630][187]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.35.40:630][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.35.43:653][541]LogSlate: Window 'Message Log' being destroyed
-[2021.01.28-18.35.43:673][541]LogSlate: Window 'Message Log' being destroyed
-[2021.01.28-18.35.52:460][123]LogSlate: Window 'Pick Parent Class' being destroyed
-[2021.01.28-18.35.59:861][931]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Pyramid/pyramid_Cube_004.pyramid_Cube_004
-[2021.01.28-18.36.00:074][931]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.36.00:075][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.36.31:573][558]LogRenderer: Reallocating scene render targets to support 992x780 Format 10 NumSamples 1 (Frame:3683).
-[2021.01.28-18.36.31:739][558]LogRenderer: Reallocating scene render targets to support 1064x780 Format 10 NumSamples 1 (Frame:3684).
-[2021.01.28-18.36.31:921][558]LogRenderer: Reallocating scene render targets to support 1104x780 Format 10 NumSamples 1 (Frame:3685).
-[2021.01.28-18.36.33:096][558]LogRenderer: Reallocating scene render targets to support 1108x780 Format 10 NumSamples 1 (Frame:3687).
-[2021.01.28-18.36.33:276][558]LogRenderer: Reallocating scene render targets to support 1116x780 Format 10 NumSamples 1 (Frame:3688).
-[2021.01.28-18.36.33:408][558]LogRenderer: Reallocating scene render targets to support 1128x780 Format 10 NumSamples 1 (Frame:3689).
-[2021.01.28-18.36.33:539][558]LogRenderer: Reallocating scene render targets to support 1136x780 Format 10 NumSamples 1 (Frame:3690).
-[2021.01.28-18.36.33:671][558]LogRenderer: Reallocating scene render targets to support 1144x780 Format 10 NumSamples 1 (Frame:3691).
-[2021.01.28-18.36.33:792][558]LogRenderer: Reallocating scene render targets to support 1148x780 Format 10 NumSamples 1 (Frame:3692).
-[2021.01.28-18.36.33:925][558]LogRenderer: Reallocating scene render targets to support 1152x780 Format 10 NumSamples 1 (Frame:3693).
-[2021.01.28-18.36.34:077][558]LogRenderer: Reallocating scene render targets to support 1160x780 Format 10 NumSamples 1 (Frame:3694).
-[2021.01.28-18.36.34:256][558]LogRenderer: Reallocating scene render targets to support 1172x780 Format 10 NumSamples 1 (Frame:3695).
-[2021.01.28-18.36.34:410][558]LogRenderer: Reallocating scene render targets to support 1184x780 Format 10 NumSamples 1 (Frame:3696).
-[2021.01.28-18.37.47:920][901]LogSlate: Window 'pyramid_Cube_004' being destroyed
-[2021.01.28-18.37.47:934][901]LogSlate: Window 'pyramid_Cube_004' being destroyed
-[2021.01.28-18.37.47:943][901]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.37.47:943][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.37.50:083][115]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Pyramid/pyramid_Cube_003.pyramid_Cube_003
-[2021.01.28-18.37.50:274][115]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.37.50:274][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.38.40:943][ 37]LogSlate: Window 'pyramid_Cube_003' being destroyed
-[2021.01.28-18.38.40:970][ 37]LogSlate: Window 'pyramid_Cube_003' being destroyed
-[2021.01.28-18.38.40:971][ 37]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.38.40:971][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.38.43:301][267]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Pyramid/pyramid_Cube_002.pyramid_Cube_002
-[2021.01.28-18.38.43:475][267]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.38.43:475][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.39.09:245][233]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_002EB6ADE9F4488A22E21EE2C9DDB58A47F.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid_Cube_002.uasset'
-[2021.01.28-18.39.09:266][233]AssetCheck: New page: Asset Save: pyramid_Cube_002
-[2021.01.28-18.39.09:266][233]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Pyramid/pyramid_Cube_002.pyramid_Cube_002
-[2021.01.28-18.39.10:958][424]LogSlate: Window 'pyramid_Cube_002' being destroyed
-[2021.01.28-18.39.10:963][424]LogSlate: Window 'pyramid_Cube_002' being destroyed
-[2021.01.28-18.39.10:971][424]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.39.10:971][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.39.12:162][537]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Pyramid/pyramid_Cube_003.pyramid_Cube_003
-[2021.01.28-18.39.12:373][537]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.39.12:373][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.39.16:374][970]LogSlate: Window 'pyramid_Cube_003' being destroyed
-[2021.01.28-18.39.16:382][970]LogSlate: Window 'pyramid_Cube_003' being destroyed
-[2021.01.28-18.39.16:383][970]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.39.16:383][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.39.24:517][746]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Pyramid/pyramid_Cube_001.pyramid_Cube_001
-[2021.01.28-18.39.24:690][746]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.39.24:690][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.39.52:975][ 34]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_001EC567CA74BD40AB941D32298FAE410E8.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid_Cube_001.uasset'
-[2021.01.28-18.39.53:000][ 34]AssetCheck: New page: Asset Save: pyramid_Cube_001
-[2021.01.28-18.39.53:000][ 34]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Pyramid/pyramid_Cube_001.pyramid_Cube_001
-[2021.01.28-18.39.54:208][168]LogSlate: Window 'pyramid_Cube_001' being destroyed
-[2021.01.28-18.39.54:227][168]LogSlate: Window 'pyramid_Cube_001' being destroyed
-[2021.01.28-18.39.54:236][168]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.39.54:236][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.39.59:562][690]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Pyramid/pyramid.Pyramid
-[2021.01.28-18.39.59:744][690]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
-[2021.01.28-18.40.51:778][460]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Pyramid/pyramid_Cube_004.pyramid_Cube_004
-[2021.01.28-18.40.51:932][460]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.40.51:932][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.44.33:934][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pyramid/pyramid" FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset" SILENT=true
-[2021.01.28-18.44.33:962][153]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramidFA1A34A44A83B7FF42A3DB92D6B1BA8C.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset'
-[2021.01.28-18.44.33:985][153]AssetCheck: New page: Asset Save: Pyramid
-[2021.01.28-18.44.33:985][153]LogContentValidation: Display: Validating Blueprint /Game/Assets/Pyramid/pyramid.Pyramid
-[2021.01.28-18.44.35:263][281]BlueprintLog: New page: Compile Pyramid
-[2021.01.28-18.44.35:346][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
-[2021.01.28-18.45.37:701][361]BlueprintLog: New page: Compile Pyramid
-[2021.01.28-18.45.37:737][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2021.01.28-18.45.38:582][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pyramid/pyramid" FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset" SILENT=true
-[2021.01.28-18.45.38:593][434]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid6C98CB584A5B7BB0669C589EE7B77C07.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset'
-[2021.01.28-18.45.38:604][434]AssetCheck: New page: Asset Save: Pyramid
-[2021.01.28-18.45.38:604][434]LogContentValidation: Display: Validating Blueprint /Game/Assets/Pyramid/pyramid.Pyramid
-[2021.01.28-18.45.47:051][360]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.28-18.45.47:062][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.28-18.45.47:062][360]PIE: New page: PIE session: World (Jan 28, 2021, 8:45:47 PM)
-[2021.01.28-18.45.47:063][360]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.01.28-18.45.47:064][360]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.01.28-18.45.47:064][360]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_World
-[2021.01.28-18.45.47:073][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008635s)
-[2021.01.28-18.45.47:073][360]LogAIModule: Creating AISystem for world World
-[2021.01.28-18.45.47:073][360]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022F9FDF3E00), frame # 120360
-[2021.01.28-18.45.47:073][360]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022F877C2980), frame # 120360
-[2021.01.28-18.45.47:074][360]LogPlayLevel: PIE: World Init took: (0.000928s)
-[2021.01.28-18.45.47:074][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/World.World to /Game/ThirdPersonBP/Maps/UEDPIE_0_World.World (0.009661s)
-[2021.01.28-18.45.47:095][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.28-18.45.47:098][360]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.28-18.45.47:098][360]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.28-18.45.47:098][360]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.28-18.45.47:103][360]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.28-18.45.47:103][360]LogAudioMixer: Display: 1: FrontRight
-[2021.01.28-18.45.47:118][360]LogAudioMixer: Display: Using Audio Device 1 - LG HDR WFHD (AMD High Definition Audio Device)
-[2021.01.28-18.45.47:118][360]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.28-18.45.47:118][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.28-18.45.47:118][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.28-18.45.47:119][360]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.28-18.45.47:129][360]LogInit: FAudioDevice initialized.
-[2021.01.28-18.45.47:140][360]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2021.01.28-18.45.47:141][360]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2021.01.28-19.45.47
-[2021.01.28-18.45.47:141][360]LogWorld: Bringing up level for play took: 0.000822
-[2021.01.28-18.45.47:141][360]LogOnline: OSS: Creating online subsystem instance for: :Context_27
-[2021.01.28-18.45.47:144][360]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2021.01.28-18.45.47:147][360]PIE: Server logged in
-[2021.01.28-18.45.47:148][360]PIE: Play in editor total start time 0.089 seconds.
-[2021.01.28-18.46.25:402][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.28-18.46.25:402][908]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_World
-[2021.01.28-18.46.25:402][908]LogWorld: UWorld::CleanupWorld for World, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.46.25:402][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.46.25:412][908]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.28-18.46.25:416][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.46.25:452][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.28-18.46.25:460][908]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022F877C2980), frame # 124908
-[2021.01.28-18.46.25:460][908]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F9FDF3E00), frame # 124908
-[2021.01.28-18.46.25:491][908]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
-[2021.01.28-18.46.25:519][909]LogPlayLevel: Display: Destroying online subsystem :Context_27
-[2021.01.28-18.46.25:672][914]Cmd: SELECT NONE
-[2021.01.28-18.46.26:113][967]Cmd: SELECT NONE
-[2021.01.28-18.46.42:933][943]LogEditorViewport: Clicking on Actor (LMB): Pyramid_C (Pyramid)
-[2021.01.28-18.46.48:691][630]LogEditorViewport: Clicking on Actor (LMB): Pyramid_C (Pyramid)
-[2021.01.28-18.47.25:302][702]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Pyramid/Material.Material
-[2021.01.28-18.47.25:303][702]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.25:395][702]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.25:401][702]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.47.25:409][702]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.25:412][702]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.25:444][702]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.01.28-18.47.25:979][728]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.47.25:979][728]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.26:101][738]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.47.26:131][740]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.26:146][741]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
-[2021.01.28-18.47.26:284][751]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.47.26:284][751]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.47.26:284][751]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.47.26:284][751]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.47.46:492][681]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.47.46:501][681]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.46:502][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.47:064][716]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.47.47:064][716]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.47:183][725]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.47.47:246][729]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
-[2021.01.28-18.47.47:246][729]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
-[2021.01.28-18.47.47:378][738]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.47.47:378][738]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.47.47:378][738]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.47.47:378][738]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.47.51:306][ 50]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.51:317][ 50]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.47.51:321][ 50]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.51:703][ 73]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.47.51:721][ 74]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.51:824][ 82]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.47.51:867][ 85]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.51:898][ 87]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
-[2021.01.28-18.47.52:037][ 96]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.47.52:037][ 96]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.47.52:037][ 96]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.47.52:037][ 96]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.47.54:552][328]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.54:563][328]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.47.54:564][328]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.54:565][328]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.54:964][350]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.47.54:980][351]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.55:089][359]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.47.55:139][362]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.55:139][362]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
-[2021.01.28-18.47.55:274][371]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.47.55:274][371]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.47.55:274][371]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.47.55:274][371]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.47.56:907][523]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.47.56:920][523]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.56:922][523]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.57:306][545]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.47.57:323][546]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.57:437][555]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.47.57:482][558]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.57:497][559]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
-[2021.01.28-18.47.57:631][568]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.47.57:631][568]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.47.57:631][568]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.47.57:631][568]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.47.58:974][692]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.47.58:985][692]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.47.58:985][692]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.59:362][712]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.47.59:378][713]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.47.59:484][720]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.47.59:573][726]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
-[2021.01.28-18.47.59:587][727]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
-[2021.01.28-18.47.59:686][734]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.47.59:686][734]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.47.59:686][734]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.47.59:686][734]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.47.59:721][736]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.47.59:726][736]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.47.59:726][736]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
-[2021.01.28-18.47.59:726][736]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
-[2021.01.28-18.47.59:726][736]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
-[2021.01.28-18.47.59:726][736]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
-[2021.01.28-18.47.59:733][736]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2021.01.28-18.47.59:741][736]LogSlate: Window 'Color Picker' being destroyed
-[2021.01.28-18.47.59:861][744]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.47.59:892][746]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
-[2021.01.28-18.47.59:932][748]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
-[2021.01.28-18.48.00:118][758]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
-[2021.01.28-18.48.00:222][765]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
-[2021.01.28-18.48.00:236][766]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
-[2021.01.28-18.48.00:309][771]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
-[2021.01.28-18.48.00:309][771]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
-[2021.01.28-18.48.00:450][781]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.48.00:450][781]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.48.00:450][781]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.48.00:450][781]MaterialEditorStats: Texture samplers: 2/16
-[2021.01.28-18.48.22:406][ 13]LogMaterialEditor: Applying material Material
-[2021.01.28-18.48.22:878][ 13]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
-[2021.01.28-18.48.22:907][ 13]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.01.28-18.48.22:926][ 13]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2021.01.28-18.48.23:001][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
-[2021.01.28-18.48.23:009][ 13]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
-[2021.01.28-18.48.23:571][ 13]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
-[2021.01.28-18.48.23:737][ 13]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
-[2021.01.28-18.48.23:737][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
-[2021.01.28-18.48.23:737][ 13]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
-[2021.01.28-18.48.23:743][ 13]TextureStreamingBuild: Display: Compiling optional shaders took 0.739 seconds.
-[2021.01.28-18.48.23:778][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
-[2021.01.28-18.48.24:074][ 23]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2021.01.28-18.48.24:117][ 26]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
-[2021.01.28-18.48.24:117][ 26]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
-[2021.01.28-18.48.24:500][ 58]MaterialEditorStats: Base pass shader: 119 instructions
-[2021.01.28-18.48.24:500][ 58]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2021.01.28-18.48.24:500][ 58]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2021.01.28-18.48.24:500][ 58]MaterialEditorStats: Texture samplers: 3/16
-[2021.01.28-18.48.24:525][ 61]LogMaterialEditor: Saving and Compiling material Material
-[2021.01.28-18.48.24:595][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pyramid/Material" FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/Material.uasset" SILENT=true
-[2021.01.28-18.48.24:600][ 61]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Material5537E78A4687C66B4EAD9DB01C321FA4.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/Material.uasset'
-[2021.01.28-18.48.24:615][ 61]AssetCheck: New page: Asset Save: Material
-[2021.01.28-18.48.24:615][ 61]LogContentValidation: Display: Validating Material /Game/Assets/Pyramid/Material.Material
-[2021.01.28-18.48.26:539][258]LogSlate: Window 'Material' being destroyed
-[2021.01.28-18.48.26:559][258]LogSlate: Window 'Material' being destroyed
-[2021.01.28-18.48.26:608][258]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.48.26:608][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.48.26:669][258]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.48.26:669][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.48.26:758][258]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
-[2021.01.28-18.48.26:758][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.28-18.48.32:259][851]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Pyramid/pyramid.Pyramid
-[2021.01.28-18.48.47:135][406]BlueprintLog: New page: Compile Pyramid
-[2021.01.28-18.48.47:199][406]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
-[2021.01.28-18.48.51:425][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pyramid/pyramid" FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset" SILENT=true
-[2021.01.28-18.48.51:435][873]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramidE91063434CC1990CEA9898A9468AC131.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset'
-[2021.01.28-18.48.51:457][873]AssetCheck: New page: Asset Save: Pyramid
-[2021.01.28-18.48.51:457][873]LogContentValidation: Display: Validating Blueprint /Game/Assets/Pyramid/pyramid.Pyramid
-[2021.01.28-18.50.16:337][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
-[2021.01.28-18.50.16:389][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/World_Auto294C7F66F4D57F8E60955EE9C4FB4EF38.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/ThirdPersonBP/Maps/World_Auto2.umap'
-[2021.01.28-18.50.16:390][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World' took 0.095
-[2021.01.28-18.50.16:390][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
-[2021.01.28-18.50.16:391][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pyramid/pyramid_Cube] ([1] browsable assets)...
-[2021.01.28-18.50.16:416][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Pyramid/pyramid_Cube.pyramid_Cube]
-[2021.01.28-18.50.16:416][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pyramid/pyramid_Cube]
-[2021.01.28-18.50.16:423][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_Auto226A4FE2D42E1116FDB4572927ED88F64.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Pyramid/pyramid_Cube_Auto2.uasset'
-[2021.01.28-18.50.16:423][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pyramid/pyramid_Cube_003] ([1] browsable assets)...
-[2021.01.28-18.50.16:433][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Pyramid/pyramid_Cube_003.pyramid_Cube_003]
-[2021.01.28-18.50.16:433][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pyramid/pyramid_Cube_003]
-[2021.01.28-18.50.16:440][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_003_Auto2E8E2DCDF43BC7C39633DE7A27ADC7889.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Pyramid/pyramid_Cube_003_Auto2.uasset'
-[2021.01.28-18.50.16:440][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pyramid/pyramid_Cube_004] ([1] browsable assets)...
-[2021.01.28-18.50.16:448][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Pyramid/pyramid_Cube_004.pyramid_Cube_004]
-[2021.01.28-18.50.16:448][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pyramid/pyramid_Cube_004]
-[2021.01.28-18.50.16:455][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_004_Auto25F2D48EB4243A5FF98B23DA0BC2CB27A.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Pyramid/pyramid_Cube_004_Auto2.uasset'
-[2021.01.28-18.50.16:455][ 88]LogFileHelpers: Auto-saving content packages took 0.065
+[2021.01.28-19.13.57:858][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.28-19.13.57:858][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.28-19.13.57:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:858][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.28-19.13.57:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:859][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.28-19.13.57:859][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:859][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:862][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.28-19.13.57:862][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:862][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.28-19.13.57:863][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.28-19.13.57:863][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.28-19.13.57:863][  0]LogHAL: Display: Platform has ~ 32 GB [34305376256 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.28-19.13.57:863][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.28-19.13.57:863][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Scalability.ini]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.28-19.13.57:864][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.28-19.13.57:865][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.28-19.13.57:865][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.28-19.13.57:865][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.28-19.13.57:865][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Config/Windows/Engine.ini]
+[2021.01.28-19.13.57:865][  0]LogInit: Computer: DESKTOP-Q92LIBO
+[2021.01.28-19.13.57:865][  0]LogInit: User: slavk
+[2021.01.28-19.13.57:865][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.28-19.13.57:865][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.28-19.13.57:865][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.01.28-19.13.57:865][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.28-19.13.57:865][  0]LogMemory: Process Physical Memory: 115.34 MB used, 115.34 MB peak
+[2021.01.28-19.13.57:865][  0]LogMemory: Process Virtual Memory: 97.07 MB used, 97.07 MB peak
+[2021.01.28-19.13.57:865][  0]LogMemory: Physical Memory: 10777.61 MB used,  21938.55 MB free, 32716.16 MB total
+[2021.01.28-19.13.57:865][  0]LogMemory: Virtual Memory: 5132.88 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.01.28-19.13.57:869][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.28-19.13.57:895][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.28-19.13.57:895][  0]LogInit: Using OS detected language (en-US).
+[2021.01.28-19.13.57:895][  0]LogInit: Using OS detected locale (en-US).
+[2021.01.28-19.13.57:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.01.28-19.13.58:043][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.28-19.13.58:072][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.28-19.13.58:072][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.28-19.13.58:214][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.28-19.13.58:214][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.28-19.13.58:214][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.28-19.13.58:214][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.28-19.13.58:255][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5700' (Feature Level 11_0)
+[2021.01.28-19.13.58:256][  0]LogD3D11RHI:       8152/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2021.01.28-19.13.58:257][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.28-19.13.58:257][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.28-19.13.58:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.28-19.13.58:264][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.28-19.13.58:264][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2021.01.28-19.13.58:264][  0]LogWindows: EnumDisplayDevices:
+[2021.01.28-19.13.58:264][  0]LogWindows:    0. 'AMD Radeon RX 5700' (P:1 D:1)
+[2021.01.28-19.13.58:264][  0]LogWindows:    1. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:265][  0]LogWindows:    2. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:265][  0]LogWindows:    3. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:265][  0]LogWindows:    4. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:266][  0]LogWindows:    5. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:266][  0]LogWindows:    6. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:266][  0]LogWindows:    7. 'AMD Radeon RX 5700' (P:0 D:0)
+[2021.01.28-19.13.58:266][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2021.01.28-19.13.58:266][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5700
+[2021.01.28-19.13.58:266][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.9.1 (internal:27.20.12029.1000, unified:27.20.12029.1000)
+[2021.01.28-19.13.58:266][  0]LogD3D11RHI:      Driver Date: 9-9-2020
+[2021.01.28-19.13.58:266][  0]LogRHI: Texture pool is 5168 MB (70% of 7384 MB)
+[2021.01.28-19.13.58:324][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.28-19.13.58:324][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.28-19.13.58:324][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.28-19.13.58:324][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2021.01.28-19.13.58:342][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2021.01.28-19.13.58:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.28-19.13.58:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.28-19.13.58:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.28-19.13.58:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.28-19.13.58:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.28-19.13.58:639][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.28-19.13.58:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.28-19.13.58:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.28-19.13.58:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.28-19.13.58:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.28-19.13.58:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.28-19.13.58:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.28-19.13.58:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.28-19.13.58:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.28-19.13.58:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.28-19.13.58:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.28-19.13.58:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.28-19.13.58:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.28-19.13.58:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.28-19.13.58:758][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.28-19.13.58:765][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.28-19.13.58:819][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Intermediate/Shaders/WorkingDirectory/7908/).
+[2021.01.28-19.13.58:819][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/slavk/AppData/Local/Temp/UnrealShaderWorkingDir/951AFB1443E0EC360A98208C1CDDAF18/'.
+[2021.01.28-19.13.58:819][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.28-19.13.58:820][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.28-19.13.58:820][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.28-19.13.59:498][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.28-19.13.59:538][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/slavk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.28-19.13.59:538][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/slavk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.28-19.13.59:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.28-19.13.59:538][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.28-19.13.59:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.28-19.13.59:538][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.28-19.13.59:548][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.28-19.13.59:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.28-19.13.59:548][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.28-19.13.59:550][  0]LogDerivedDataCache: Using Local data cache path C:/Users/slavk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.28-19.13.59:550][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.28-19.13.59:550][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.28-19.13.59:593][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.28-19.13.59:594][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.28-19.13.59:618][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.01.28-19.13.59:853][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.28-19.13.59:947][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.28-19.13.59:947][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.28-19.13.59:947][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.28-19.13.59:947][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.28-19.13.59:947][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.28-19.13.59:959][  0]LogNetVersion: MyProject2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2431794755)
+[2021.01.28-19.14.00:329][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D3A544D380), frame # 0
+[2021.01.28-19.14.00:329][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3A5387C40), frame # 0
+[2021.01.28-19.14.00:330][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3A53AB200), frame # 0
+[2021.01.28-19.14.00:360][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.025545 seconds
+[2021.01.28-19.14.00:365][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.28-19.14.00:365][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.28-19.14.00:365][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.28-19.14.00:659][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.28-19.14.00:663][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.28-19.14.00:751][  0]SourceControl: Source control is disabled
+[2021.01.28-19.14.00:751][  0]SourceControl: Source control is disabled
+[2021.01.28-19.14.00:753][  0]SourceControl: Source control is disabled
+[2021.01.28-19.14.00:756][  0]SourceControl: Source control is disabled
+[2021.01.28-19.14.00:762][  0]SourceControl: Source control is disabled
+[2021.01.28-19.14.00:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.28-19.14.00:995][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.28-19.14.00:995][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.28-19.14.01:038][  0]LogOcInput: OculusInput pre-init called
+[2021.01.28-19.14.01:049][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.28-19.14.01:049][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.28-19.14.01:105][  0]LogEngine: Initializing Engine...
+[2021.01.28-19.14.01:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.28-19.14.01:106][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.28-19.14.01:106][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.28-19.14.01:197][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.28-19.14.01:206][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.28-19.14.01:206][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3B0B98800), frame # 0
+[2021.01.28-19.14.01:206][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3AA049800), frame # 0
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-19.14.01:224][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-19.14.01:224][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-19.14.01:224][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-19.14.01:237][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.14.01:237][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.14.01:268][  0]LogAudioMixer: Display: Using Audio Device 1 - LG HDR WFHD (AMD High Definition Audio Device)
+[2021.01.28-19.14.01:268][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-19.14.01:270][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-19.14.01:270][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-19.14.01:271][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-19.14.01:272][  0]LogInit: FAudioDevice initialized.
+[2021.01.28-19.14.01:272][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.28-19.14.01:328][  0]LogDerivedDataCache: Saved boot cache 0.06s 76MB C:/Users/slavk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.28-19.14.01:328][  0]LogInit: Texture streaming: Enabled
+[2021.01.28-19.14.01:342][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.28-19.14.01:342][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.28-19.14.01:345][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.28-19.14.01:380][  0]LogInit: Transaction tracking system initialized
+[2021.01.28-19.14.01:398][  0]BlueprintLog: New page: Editor Load
+[2021.01.28-19.14.01:456][  0]LocalizationService: Localization service is disabled
+[2021.01.28-19.14.01:584][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.28-19.14.01:584][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.28-19.14.01:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/' took 0.01s
+[2021.01.28-19.14.01:843][  0]SourceControl: Source control is disabled
+[2021.01.28-19.14.01:843][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.472
+[2021.01.28-19.14.01:844][  0]Cmd: MAP LOAD FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.28-19.14.01:844][  0]LightingResults: New page: Lighting Build
+[2021.01.28-19.14.01:844][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.14.01:845][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.14.01:845][  0]MapCheck: New page: Map Check
+[2021.01.28-19.14.01:845][  0]LightingResults: New page: Lighting Build
+[2021.01.28-19.14.01:857][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D3B0B98800), frame # 0
+[2021.01.28-19.14.01:857][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D3AA049800), frame # 0
+[2021.01.28-19.14.01:858][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.01.28-19.14.02:027][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.28-19.14.02:027][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3B0BBFE00), frame # 0
+[2021.01.28-19.14.02:027][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3B0C06AC0), frame # 0
+[2021.01.28-19.14.02:046][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.28-19.14.02:066][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.01.28-19.14.02:066][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.28-19.14.02:066][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.193ms to complete.
+[2021.01.28-19.14.02:066][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.223
+[2021.01.28-19.14.02:069][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.697
+[2021.01.28-19.14.02:190][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.14.02:196][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.14.02:202][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.14.02:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.14.02:214][  0]LogCollectionManager: Loaded 0 collections in 0.001669 seconds
+[2021.01.28-19.14.02:228][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Collections/' took 0.00s
+[2021.01.28-19.14.02:228][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Developers/slavk/Collections/' took 0.00s
+[2021.01.28-19.14.02:228][  0]LogFileCache: Scanning file cache for directory 'C:/Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Collections/' took 0.00s
+[2021.01.28-19.14.02:228][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3427 classes and 821 folders.
+[2021.01.28-19.14.02:229][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.28-19.14.02:296][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.28-19.14.02:296][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.01.28-19.14.02:343][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.28-19.14.02:345][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.28-19.14.02:349][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.28-19.14.02:402][  0]LogRenderer: Reallocating scene render targets to support 1376x688 Format 10 NumSamples 1 (Frame:1).
+[2021.01.28-19.14.02:752][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.28-19.14.02:752][  0]LogLoad: (Engine Initialization) Total time: 6.38 seconds
+[2021.01.28-19.14.02:752][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.28-19.14.02:787][  0]LogAssetRegistry: Asset discovery search completed in 3.1691 seconds
+[2021.01.28-19.14.02:790][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.01.28-19.14.02:791][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.28-19.14.02:813][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.28-19.14.12:919][174]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.28-19.14.12:984][174]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/World.World
+[2021.01.28-19.14.13:013][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.01.28-19.14.13:014][174]Cmd: MAP LOAD FILE="../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/ThirdPersonBP/Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.28-19.14.13:014][174]LightingResults: New page: Lighting Build
+[2021.01.28-19.14.13:014][174]LoadErrors: New page: Loading map: World.umap
+[2021.01.28-19.14.13:045][174]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.14.13:045][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.14.13:045][174]MapCheck: New page: Map Check
+[2021.01.28-19.14.13:045][174]LightingResults: New page: Lighting Build
+[2021.01.28-19.14.13:055][174]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D3B0BBFE00), frame # 1174
+[2021.01.28-19.14.13:055][174]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D3B0C06AC0), frame # 1174
+[2021.01.28-19.14.13:056][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.01.28-19.14.13:064][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.28-19.14.13:064][174]LogAIModule: Creating AISystem for world World
+[2021.01.28-19.14.13:064][174]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3B0D10E00), frame # 1174
+[2021.01.28-19.14.13:064][174]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D39F853100), frame # 1174
+[2021.01.28-19.14.13:076][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.01.28-19.14.13:091][174]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.28-19.14.13:091][174]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2021.01.28-19.14.13:091][174]LogFileHelpers: Loading map 'World' took 0.078

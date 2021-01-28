@@ -1091,3 +1091,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.28-18.48.51:435][873]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramidE91063434CC1990CEA9898A9468AC131.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Content/Assets/Pyramid/pyramid.uasset'
 [2021.01.28-18.48.51:457][873]AssetCheck: New page: Asset Save: Pyramid
 [2021.01.28-18.48.51:457][873]LogContentValidation: Display: Validating Blueprint /Game/Assets/Pyramid/pyramid.Pyramid
+[2021.01.28-18.50.16:337][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.01.28-18.50.16:389][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/World_Auto294C7F66F4D57F8E60955EE9C4FB4EF38.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/ThirdPersonBP/Maps/World_Auto2.umap'
+[2021.01.28-18.50.16:390][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World' took 0.095
+[2021.01.28-18.50.16:390][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2021.01.28-18.50.16:391][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pyramid/pyramid_Cube] ([1] browsable assets)...
+[2021.01.28-18.50.16:416][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Pyramid/pyramid_Cube.pyramid_Cube]
+[2021.01.28-18.50.16:416][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pyramid/pyramid_Cube]
+[2021.01.28-18.50.16:423][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_Auto226A4FE2D42E1116FDB4572927ED88F64.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Pyramid/pyramid_Cube_Auto2.uasset'
+[2021.01.28-18.50.16:423][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pyramid/pyramid_Cube_003] ([1] browsable assets)...
+[2021.01.28-18.50.16:433][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Pyramid/pyramid_Cube_003.pyramid_Cube_003]
+[2021.01.28-18.50.16:433][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pyramid/pyramid_Cube_003]
+[2021.01.28-18.50.16:440][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_003_Auto2E8E2DCDF43BC7C39633DE7A27ADC7889.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Pyramid/pyramid_Cube_003_Auto2.uasset'
+[2021.01.28-18.50.16:440][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pyramid/pyramid_Cube_004] ([1] browsable assets)...
+[2021.01.28-18.50.16:448][ 88]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Pyramid/pyramid_Cube_004.pyramid_Cube_004]
+[2021.01.28-18.50.16:448][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pyramid/pyramid_Cube_004]
+[2021.01.28-18.50.16:455][ 88]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/pyramid_Cube_004_Auto25F2D48EB4243A5FF98B23DA0BC2CB27A.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Pyramid/pyramid_Cube_004_Auto2.uasset'
+[2021.01.28-18.50.16:455][ 88]LogFileHelpers: Auto-saving content packages took 0.065

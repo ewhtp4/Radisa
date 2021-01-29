@@ -969,3 +969,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.29-13.45.13:517][217]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.29-13.45.13:518][217]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/World.World
 [2021.01.29-13.45.13:518][217]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/World_BuiltData.World_BuiltData
+[2021.01.29-13.47.45:775][972]LogEditorViewport: Clicking on Actor (LMB): FenceObject_C (FenceObject9)
+[2021.01.29-13.55.13:544][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.01.29-13.55.13:661][625]LogSavePackage: Moving '../../../../../Unity Projects/Radisa/Saved/World_Auto16D58BEE740B98E63A14C7AA5F7E85969.tmp' to '../../../../../Unity Projects/Radisa/Saved/Autosaves/Game/ThirdPersonBP/Maps/World_Auto1.umap'
+[2021.01.29-13.55.13:663][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World' took 0.139
+[2021.01.29-13.55.13:663][625]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2021.01.29-13.55.13:663][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Fence/GateObject] ([1] browsable assets)...
+[2021.01.29-13.55.13:663][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/GateObject]
+[2021.01.29-13.55.13:663][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Fence/GateObject" FILE="../../../../../Unity Projects/Radisa/Saved/Autosaves/Game/Assets/Fence/GateObject_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.01.29-13.55.13:685][625]LogSavePackage: Moving '../../../../../Unity Projects/Radisa/Saved/GateObject_Auto14D3E8DD84011AA68C46D74A25FBB9AD3.tmp' to '../../../../../Unity Projects/Radisa/Saved/Autosaves/Game/Assets/Fence/GateObject_Auto1.uasset'
+[2021.01.29-13.55.13:686][625]LogFileHelpers: Auto-saving content packages took 0.023
+[2021.01.29-14.13.50:555][962]LogEditorViewport: Clicking on Actor (LMB): FenceObject_C (FenceObject10)
+[2021.01.29-14.14.11:218][413]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.01.29-14.15.19:261][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.01.29-14.15.19:357][563]LogSavePackage: Moving '../../../../../Unity Projects/Radisa/Saved/World_Auto2D81902B44ADC25A14B445EA51F11A999.tmp' to '../../../../../Unity Projects/Radisa/Saved/Autosaves/Game/ThirdPersonBP/Maps/World_Auto2.umap'
+[2021.01.29-14.15.19:358][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World' took 0.114
+[2021.01.29-14.15.19:358][563]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114

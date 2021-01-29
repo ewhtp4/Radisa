@@ -7967,3 +7967,32 @@ If "No", you can manually reload the layout from the "User Layouts" section late
 [2021.01.29-14.10.04:529][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
 [2021.01.29-14.10.04:538][223]LogEditorActor: Deleted 2 Actors (0.032 secs)
 [2021.01.29-14.10.11:686][ 75]Cmd: SELECT NONE
+[2021.01.29-14.10.37:831][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.01.29-14.10.37:906][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/World_Auto3B56836A1483A149DC43115A193A2B408.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/ThirdPersonBP/Maps/World_Auto3.umap'
+[2021.01.29-14.10.37:907][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/World' took 0.089
+[2021.01.29-14.10.37:907][294]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2021.01.29-14.10.37:907][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Fence/FBX/GateRim] ([1] browsable assets)...
+[2021.01.29-14.10.37:918][294]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Fence/FBX/GateRim.GateRim]
+[2021.01.29-14.10.37:919][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/FBX/GateRim]
+[2021.01.29-14.10.37:932][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/GateRim_Auto3F316205A48321EAAB409658A797C7A65.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Fence/FBX/GateRim_Auto3.uasset'
+[2021.01.29-14.10.37:933][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Fence/FBX/GateRight] ([1] browsable assets)...
+[2021.01.29-14.10.37:941][294]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Fence/FBX/GateRight.GateRight]
+[2021.01.29-14.10.37:941][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/FBX/GateRight]
+[2021.01.29-14.10.37:954][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/GateRight_Auto386E14CDA45242752758F12A535AE3D4A.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Fence/FBX/GateRight_Auto3.uasset'
+[2021.01.29-14.10.37:955][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Fence/ConstructMeterial] ([1] browsable assets)...
+[2021.01.29-14.10.37:963][294]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Fence/ConstructMeterial.ConstructMeterial]
+[2021.01.29-14.10.37:963][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/ConstructMeterial]
+[2021.01.29-14.10.37:975][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/ConstructMeterial_Auto346A93A824B5280CFA6666A8DC094B1F3.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Fence/ConstructMeterial_Auto3.uasset'
+[2021.01.29-14.10.37:975][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Fence/FenceObject] ([1] browsable assets)...
+[2021.01.29-14.10.37:983][294]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Fence/FenceObject.FenceObject]
+[2021.01.29-14.10.37:983][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/FenceObject]
+[2021.01.29-14.10.37:997][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/FenceObject_Auto3840F8EDC4C68CE72FF3B30922A54B055.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Fence/FenceObject_Auto3.uasset'
+[2021.01.29-14.10.37:997][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Fence/FBX/Fence] ([1] browsable assets)...
+[2021.01.29-14.10.38:010][294]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Fence/FBX/Fence.Fence]
+[2021.01.29-14.10.38:010][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/FBX/Fence]
+[2021.01.29-14.10.38:026][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Fence_Auto36D710C1C48D39DE2CB43349B7FBFBB89.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Fence/FBX/Fence_Auto3.uasset'
+[2021.01.29-14.10.38:027][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Fence/FBX/GateLeft] ([1] browsable assets)...
+[2021.01.29-14.10.38:034][294]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Fence/FBX/GateLeft.GateLeft]
+[2021.01.29-14.10.38:034][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Fence/FBX/GateLeft]
+[2021.01.29-14.10.38:047][294]LogSavePackage: Moving '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/GateLeft_Auto34EC9301C487557FDDA0232BB68C3EFCC.tmp' to '../../../../../../Users/slavk/Documents/Unreal Projects/MyProject2/Radisa/Saved/Autosaves/Game/Assets/Fence/FBX/GateLeft_Auto3.uasset'
+[2021.01.29-14.10.38:048][294]LogFileHelpers: Auto-saving content packages took 0.141

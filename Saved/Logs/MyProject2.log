@@ -783,3 +783,57 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.30-11.09.20:206][338]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016B1B3B8600), frame # 6338
 [2021.01.30-11.09.20:208][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2021.01.30-11.09.20:281][340]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.01.30-11.10.12:578][736]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-11.10.12:600][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-11.10.12:600][736]PIE: New page: PIE session: World (Jan 30, 2021, 1:10:12 PM)
+[2021.01.30-11.10.12:600][736]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_World
+[2021.01.30-11.10.12:614][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013918s)
+[2021.01.30-11.10.12:615][736]LogAIModule: Creating AISystem for world World
+[2021.01.30-11.10.12:615][736]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016B037E0C00), frame # 6736
+[2021.01.30-11.10.12:615][736]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016B1B245F80), frame # 6736
+[2021.01.30-11.10.12:616][736]LogPlayLevel: PIE: World Init took: (0.001486s)
+[2021.01.30-11.10.12:616][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/World.World to /Game/ThirdPersonBP/Maps/UEDPIE_0_World.World (0.015540s)
+[2021.01.30-11.10.12:625][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-11.10.12:626][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-11.10.12:626][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-11.10.12:627][736]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-11.10.12:627][736]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-11.10.12:629][736]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-11.10.12:630][736]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-11.10.12:643][736]LogAudioMixer: Display: Using Audio Device ASUS VG249 (NVIDIA High Definition Audio)
+[2021.01.30-11.10.12:643][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-11.10.12:643][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-11.10.12:643][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-11.10.12:644][736]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-11.10.12:659][736]LogInit: FAudioDevice initialized.
+[2021.01.30-11.10.12:665][736]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.30-11.10.12:668][736]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2021.01.30-12.10.12
+[2021.01.30-11.10.12:668][736]LogWorld: Bringing up level for play took: 0.002174
+[2021.01.30-11.10.12:668][736]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.01.30-11.10.12:671][736]PIE: Server logged in
+[2021.01.30-11.10.12:672][736]PIE: Play in editor total start time 0.073 seconds.
+[2021.01.30-11.10.51:555][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-11.10.51:555][874]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_World
+[2021.01.30-11.10.51:555][874]LogWorld: UWorld::CleanupWorld for World, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-11.10.51:556][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-11.10.51:564][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-11.10.51:566][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-11.10.51:574][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-11.10.51:589][874]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016B1B245F80), frame # 10874
+[2021.01.30-11.10.51:589][874]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016B037E0C00), frame # 10874
+[2021.01.30-11.10.51:590][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.30-11.10.51:628][875]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.01.30-11.11.02:977][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/World" FILE="../../../../../Unity Projects/Radisa/Content/ThirdPersonBP/Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.30-11.11.03:006][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.30-11.11.03:253][623]LogSavePackage: Moving '../../../../../Unity Projects/Radisa/Saved/World27B32DF145D417472ECA1E8D90CD7A56.tmp' to '../../../../../Unity Projects/Radisa/Content/ThirdPersonBP/Maps/World.umap'
+[2021.01.30-11.11.03:347][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/World_BuiltData" FILE="../../../../../Unity Projects/Radisa/Content/ThirdPersonBP/Maps/World_BuiltData.uasset" SILENT=true
+[2021.01.30-11.11.03:390][623]LogSavePackage: Moving '../../../../../Unity Projects/Radisa/Saved/World_BuiltData47B94A8F408DE5B520DF47977AC47A70.tmp' to '../../../../../Unity Projects/Radisa/Content/ThirdPersonBP/Maps/World_BuiltData.uasset'
+[2021.01.30-11.11.03:423][623]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.30-11.11.03:423][623]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/World.World
+[2021.01.30-11.11.03:423][623]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/World_BuiltData.World_BuiltData
